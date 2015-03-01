@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C23F7A97-EAAF-433E-8FCA-4893C049BA88}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62CB4EBC-B7D7-4919-850D-4BDA4B3B4EAA}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		dddlib.dictionary = dddlib.dictionary
+		dddlib.Persistence.NEventStore.msbuild = dddlib.Persistence.NEventStore.msbuild
+		dddlib.ruleset = dddlib.ruleset
+		Settings.StyleCop = Settings.StyleCop
+		Version.txt = Version.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dddlib.Persistence.NEventStore", "dddlib.Persistence.NEventStore\dddlib.Persistence.NEventStore.csproj", "{1C8201BB-513B-4918-A612-377571609B52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9D6B0961-943F-456B-B2FF-10650BD237F3}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Settings.StyleCop = tests\Settings.StyleCop
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dddlib.Persistence.NEventStore.Tests", "tests\dddlib.Persistence.NEventStore.Tests\dddlib.Persistence.NEventStore.Tests.csproj", "{77017D3D-3F2F-496E-AC8F-51F8BF2389ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C8201BB-513B-4918-A612-377571609B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8201BB-513B-4918-A612-377571609B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8201BB-513B-4918-A612-377571609B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8201BB-513B-4918-A612-377571609B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77017D3D-3F2F-496E-AC8F-51F8BF2389ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77017D3D-3F2F-496E-AC8F-51F8BF2389ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77017D3D-3F2F-496E-AC8F-51F8BF2389ED}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{77017D3D-3F2F-496E-AC8F-51F8BF2389ED}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77017D3D-3F2F-496E-AC8F-51F8BF2389ED} = {9D6B0961-943F-456B-B2FF-10650BD237F3}
+	EndGlobalSection
+EndGlobal

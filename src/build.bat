@@ -1,0 +1,1 @@
+@msbuild dddlib.Persistence.NEventStore.msbuild /t:Build;Test;Package
