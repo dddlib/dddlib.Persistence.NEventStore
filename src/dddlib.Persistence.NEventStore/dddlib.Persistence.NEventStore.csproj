@@ -43,13 +43,13 @@
     <AssemblyOriginatorKeyFile>..\dddlib.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dddlib, Version=0.3.0.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
+    <Reference Include="dddlib, Version=0.3.1.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\dddlib.0.3.0-beta22\lib\net45\dddlib.dll</HintPath>
+      <HintPath>..\..\packages\dddlib.0.3.1-beta37\lib\net45\dddlib.dll</HintPath>
     </Reference>
-    <Reference Include="dddlib.Persistence, Version=0.3.0.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
+    <Reference Include="dddlib.Persistence, Version=0.3.1.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\dddlib.Persistence.0.3.0-beta22\lib\net45\dddlib.Persistence.dll</HintPath>
+      <HintPath>..\..\packages\dddlib.Persistence.0.3.1-beta37\lib\net45\dddlib.Persistence.dll</HintPath>
     </Reference>
     <Reference Include="NEventStore, Version=5.1.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
