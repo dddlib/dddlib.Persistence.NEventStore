@@ -6,12 +6,12 @@
     <version>$version$</version>
     <authors>Cameron Fletcher, 
 dddlib contributors</authors>
-    <projectUrl>https://github.com/cameronfletcher/dddlib/wiki</projectUrl>
-    <!--<iconUrl>http://nuget.cameronfletcher.com/icons/dddlib.png</iconUrl>-->
-    <licenseUrl>https://raw.github.com/cameronfletcher/dddlib/master/LICENSE.mit.txt</licenseUrl>
+    <projectUrl>https://github.com/dddlib/dddlib.Persistence.NEventStore/wiki</projectUrl>
+    <iconUrl>http://nuget.cameronfletcher.com/icons/dddlib.png</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/dddlib/dddlib.Persistence.NEventStore/dev/LICENSE.mit.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The NEventStore persistence implementation for dddlib, a domain driven design library for .NET</description>
-    <releaseNotes>TBD</releaseNotes>
+    <releaseNotes>Initial release</releaseNotes>
     <copyright>Copyright (c) dddlib contributors.</copyright>
     <tags>domain driven design library dddlib persistence event store eventstore neventstore</tags>
     <dependencies />
