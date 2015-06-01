@@ -14,12 +14,14 @@ dddlib contributors</authors>
     <releaseNotes>Initial release</releaseNotes>
     <copyright>Copyright (c) dddlib contributors.</copyright>
     <tags>domain driven design library dddlib persistence event store eventstore neventstore</tags>
-    <dependencies />
+    <dependencies>
+      <dependency id="dddlib.Persistence" version="[0.3.1,0.4.0)" />
+    </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net45" />
     </frameworkAssemblies>
   </metadata>
-  <!--<files>
-    <file src="bin\Release\dddlib.Persistence.NEventStore.dll" target="lib\net45" />
-  </files>-->
+  <files>
+    <file src="bin\Release\dddlib.Persistence.NEventStore.pdb" target="lib\net45" />
+  </files>
 </package>
