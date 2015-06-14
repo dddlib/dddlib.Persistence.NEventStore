@@ -44,18 +44,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="dddlib, Version=0.3.1.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\dddlib.0.3.1-alpha61\lib\net45\dddlib.dll</HintPath>
+      <HintPath>..\..\packages\dddlib.0.3.1-alpha66\lib\net45\dddlib.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="dddlib.Persistence, Version=0.3.1.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\dddlib.Persistence.0.3.1-alpha61\lib\net45\dddlib.Persistence.dll</HintPath>
+      <HintPath>..\..\packages\dddlib.Persistence.0.3.1-alpha66\lib\net45\dddlib.Persistence.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NEventStore, Version=5.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\NEventStore.5.1.1\lib\net40\NEventStore.dll</HintPath>
+    <Reference Include="NEventStore, Version=5.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NEventStore.5.2.0\lib\net40\NEventStore.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\CommonAssemblyInfo.cs">
