@@ -8,4 +8,4 @@ using System.Reflection;
 [assembly: AssemblyTitle("dddlib.Persistence.NEventStore")]
 [assembly: AssemblyDescription("")]
 
-[assembly: CLSCompliant(true)]
+[assembly: CLSCompliant(false)]
