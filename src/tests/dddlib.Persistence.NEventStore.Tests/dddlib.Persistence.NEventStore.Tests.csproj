@@ -42,16 +42,15 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="dddlib, Version=0.3.1.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\dddlib.0.3.1-alpha66\lib\net45\dddlib.dll</HintPath>
+    <Reference Include="dddlib, Version=0.5.1.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\dddlib.0.5.1\lib\net45\dddlib.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="dddlib.Persistence, Version=0.3.1.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\dddlib.Persistence.0.3.1-alpha66\lib\net45\dddlib.Persistence.dll</HintPath>
+    <Reference Include="dddlib.Persistence, Version=0.5.1.0, Culture=neutral, PublicKeyToken=170a2ed9a7ece236, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\dddlib.Persistence.0.5.1\lib\net45\dddlib.Persistence.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Data" />
     <Reference Include="xunit.abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\xunit.abstractions.2.0.0\lib\net35\xunit.abstractions.dll</HintPath>
       <Private>True</Private>
